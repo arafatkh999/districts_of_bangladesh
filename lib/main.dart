@@ -277,7 +277,7 @@ class _MyHomePageState extends State<MyHomePage> {
               },
             ),
           ),
-          Padding(
+          /*Padding(
             padding: const EdgeInsets.all(8.0),
             child: ListTile(
               leading: CircleAvatar(
@@ -516,8 +516,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=>madaripur()));
               },
             ),
-          ),
-          Padding(
+          ),*/
+        /*  Padding(
             padding: const EdgeInsets.all(8.0),
             child: ListTile(
               leading: CircleAvatar(
@@ -876,7 +876,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=>thakurgaon()));
               },
             ),
-          ),
+          ),*/
+
 
         ],
       )
