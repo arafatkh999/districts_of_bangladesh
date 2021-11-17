@@ -109,29 +109,37 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: ListView(
         children: [
+
           Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: ListTile(
-              leading: CircleAvatar(
-                child: Text('B'),
+            padding: const EdgeInsets.fromLTRB(8.0,8.0,8.0,4.0),
+            child: Card(
+              elevation: 5,
+              child: ListTile(
+                leading: CircleAvatar(
+                  child: Text('B'),
+                ),
+                title: Text('Bagerhat'),
+                onTap: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>bagerhat()));
+                },
               ),
-              title: Text('Bagerhat'),
-              onTap: (){
-                Navigator.push(context, MaterialPageRoute(builder: (context)=>bagerhat()));
-              },
-            ),
+            )
           ),
           Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: ListTile(
-              leading: CircleAvatar(
-                child: Text('B'),
+            padding: const EdgeInsets.fromLTRB(8.0,4.0,8.0,4.0),
+
+            child: Card(
+              elevation: 5,
+              child:ListTile(
+                leading: CircleAvatar(
+                  child: Text('B'),
+                ),
+                title: Text('Bandarban'),
+                onTap: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>bandarban()));
+                },
               ),
-              title: Text('Bandarban'),
-              onTap: (){
-                Navigator.push(context, MaterialPageRoute(builder: (context)=>bandarban()));
-              },
-            ),
+            )
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
@@ -169,6 +177,7 @@ class _MyHomePageState extends State<MyHomePage> {
               },
             ),
           ),
+
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: ListTile(
