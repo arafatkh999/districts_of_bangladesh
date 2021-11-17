@@ -1,70 +1,69 @@
 import 'package:flutter/material.dart';
-import 'package:project1/bagerhat.dart';
-import 'package:project1/bandarban.dart';
-import 'package:project1/barguna.dart';
-import 'package:project1/barisal.dart';
-import 'package:project1/bhola.dart';
-import 'package:project1/bogra.dart';
-import 'package:project1/brahmanbaria.dart';
-import 'package:project1/chapai.dart';
-import 'package:project1/chuadanga.dart';
-import 'package:project1/dhaka.dart';
-import 'package:project1/dinajpur.dart';
-import 'package:project1/faridpur.dart';
-import 'package:project1/feni.dart';
-import 'package:project1/gaibandha.dart';
-import 'package:project1/gazipur.dart';
-import 'package:project1/gopalganj.dart';
-import 'package:project1/habiganj.dart';
-import 'package:project1/jamalpur.dart';
-import 'package:project1/jessore.dart';
-import 'package:project1/jhalokati.dart';
-import 'package:project1/joypurhat.dart';
-import 'package:project1/khagrachhari.dart';
-import 'package:project1/khulna.dart';
-import 'package:project1/kishoreganj.dart';
-import 'package:project1/kurigram.dart';
-import 'package:project1/kushtia.dart';
-import 'package:project1/lakshmipur.dart';
-import 'package:project1/lal.dart';
-import 'package:project1/madaripur.dart';
-import 'package:project1/magura.dart';
-import 'package:project1/manikganj.dart';
-import 'package:project1/meherpur.dart';
-import 'package:project1/moulvibazar.dart';
-import 'package:project1/munshiganj.dart';
-import 'package:project1/mymensingh.dart';
-import 'package:project1/naogaon.dart';
-import 'package:project1/narail.dart';
-import 'package:project1/narayanganj.dart';
-import 'package:project1/narsingdi.dart';
-import 'package:project1/natore.dart';
-import 'package:project1/netrokona.dart';
-import 'package:project1/nil.dart';
-import 'package:project1/noakhali.dart';
-import 'package:project1/pabna.dart';
-import 'package:project1/pan.dart';
-import 'package:project1/patuakhali.dart';
-import 'package:project1/pirojpur.dart';
-import 'package:project1/rajbari.dart';
-import 'package:project1/rajshahi.dart';
-import 'package:project1/rangamati.dart';
-import 'package:project1/rangpur.dart';
-import 'package:project1/satkhira.dart';
-import 'package:project1/shariatpur.dart';
-import 'package:project1/sherpur.dart';
-import 'package:project1/sirajganj.dart';
-import 'package:project1/sunamganj.dart';
-import 'package:project1/sylhet.dart';
-import 'package:project1/tangail.dart';
-import 'package:project1/thakurgaon.dart';
 
-
+import 'bagerhat.dart';
+import 'bandarban.dart';
+import 'barguna.dart';
+import 'barisal.dart';
+import 'bhola.dart';
+import 'bogra.dart';
+import 'brahmanbaria.dart';
 import 'chandpur.dart';
+import 'chapai.dart';
 import 'chittagong.dart';
+import 'chuadanga.dart';
 import 'comilla.dart';
 import "cox's bazar.dart";
+import 'dhaka.dart';
+import 'dinajpur.dart';
+import 'faridpur.dart';
+import 'feni.dart';
+import 'gaibandha.dart';
+import 'gazipur.dart';
+import 'gopalganj.dart';
+import 'habiganj.dart';
+import 'jamalpur.dart';
+import 'jessore.dart';
+import 'jhalokati.dart';
 import 'jhenaidah.dart';
+import 'joypurhat.dart';
+import 'khagrachhari.dart';
+import 'khulna.dart';
+import 'kishoreganj.dart';
+import 'kurigram.dart';
+import 'kushtia.dart';
+import 'lakshmipur.dart';
+import 'lal.dart';
+import 'madaripur.dart';
+import 'magura.dart';
+import 'manikganj.dart';
+import 'meherpur.dart';
+import 'moulvibazar.dart';
+import 'munshiganj.dart';
+import 'mymensingh.dart';
+import 'naogaon.dart';
+import 'narail.dart';
+import 'narayanganj.dart';
+import 'narsingdi.dart';
+import 'natore.dart';
+import 'netrokona.dart';
+import 'nil.dart';
+import 'noakhali.dart';
+import 'pabna.dart';
+import 'pan.dart';
+import 'patuakhali.dart';
+import 'pirojpur.dart';
+import 'rajbari.dart';
+import 'rajshahi.dart';
+import 'rangamati.dart';
+import 'rangpur.dart';
+import 'satkhira.dart';
+import 'shariatpur.dart';
+import 'sherpur.dart';
+import 'sirajganj.dart';
+import 'sunamganj.dart';
+import 'sylhet.dart';
+import 'tangail.dart';
+import 'thakurgaon.dart';
 
 void main() {
   runApp(const MyApp());
@@ -107,7 +106,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
         title: Text(widget.title),
       ),
-      body: ListView(
+      body:
+      ListView(
         children: [
           Padding(
             padding: const EdgeInsets.all(8.0),
@@ -211,7 +211,7 @@ class _MyHomePageState extends State<MyHomePage> {
               leading: CircleAvatar(
                 child: Text('C'),
               ),
-              title: Text('Chapai'),
+              title: Text('Chapai Nawabganj'),
               onTap: (){
                 Navigator.push(context, MaterialPageRoute(builder: (context)=>chapai()));
               },
@@ -877,6 +877,7 @@ class _MyHomePageState extends State<MyHomePage> {
               },
             ),
           ),
+
         ],
       )
     );

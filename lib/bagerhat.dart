@@ -16,8 +16,11 @@ class _bagerhatState extends State<bagerhat> {
       ),
       body: Column(
         children: [
-          Image.asset('images/bagerhat.png'),
-          Text("Bagerhat District (Bengali: বাগেরহাট) is a district in south-western Bangladesh. It is a part of the Khulna Division.")
+          Image.asset('images/bagerhat.png',height: 300,width: 300,),
+          Padding(
+            padding: const EdgeInsets.all(20.0),
+            child: Text("Bagerhat District (Bengali: বাগেরহাট) is a district in south-western Bangladesh. It is a part of the Khulna Division."),
+          )
         ],
       ),
     );
