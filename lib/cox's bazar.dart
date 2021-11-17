@@ -11,12 +11,15 @@ class _bazarState extends State<bazar> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Coxs Bazar'),
+        title: Text('"Cox Bazar"'),
       ),
       body: Column(
         children: [
           Image.asset('images/coxs.jpg'),
-          Text('Coxs Bazar is a district in the Chittagong Division of Bangladesh. It is named after Coxs Bazar town. It is located 150 kilometres south of Chittagong. Coxs Bazar is also known by the name Panowa. Another old name was Palongkee')
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text('Coxs Bazar is a district in the "Chittagong Division" of Bangladesh. It is named after Coxs Bazar town. It is located 150 kilometres south of Chittagong. Coxs Bazar is also known by the name Panowa. Another old name was Palongkee'),
+          )
         ],
       ),
     );
